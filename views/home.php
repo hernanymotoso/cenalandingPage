@@ -35,7 +35,7 @@
 
 					<h2>PODE ACREDITAR, POR DENTRO AINDA É MAIS BONITO.
 					</h2>
-					<form>
+					<form method="POST" action="/home">
 						<div class="form-wraper">
 							<p>*Nome completo:</p>
 							<input type="text" name="nome" required placeholder="Nome">

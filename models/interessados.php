@@ -1,7 +1,7 @@
 <?php
-	class Stakeholders extends model{
+	class Interessados extends model{
 
-		public function addStakeholder($nome, $email, $phone){
+		public function addInteressado($nome, $email, $phone){
 
 			$sql = $this->db->prepare("INSERT INTO interessados (nome, email, telefone) VALUES (:nome, :email, :telefone)");
 			$sql->bindValue(":nome", $nome);

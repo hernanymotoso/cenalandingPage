@@ -10,10 +10,10 @@
             	if(isset($_POST['email']) && !empty($_POST['email'])){
             		$nome = addslashes($_POST['nome']);
             		$email = addslashes($_POST['email']);
-            		$phone = addslashes($_POST['phone']);
+            		$phone = addslashes($_POST['telefone']);
 
-            		$s = new Stakeholders();
-            		$s->addStakeholder($nome, $email, $phone);
+            		$s = new Interessados();
+            		$s->addInteressado($nome, $email, $phone);
                		echo '<h4 style="text-align:center;">Dados enviados com sucesso, Obrigado !</h4>';
    
             	}
