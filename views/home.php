@@ -125,7 +125,7 @@
 		<footer>
 			<img src="<?php echo BASE_URL ;?>/assets/imagens/logo.png"/>
 			<p>Todos os direitos reservados</p>
-			<p>Contato: (13) 98200-0563</p>
+			<p>Contato: (XX) XXXXX-XXXX</p>
 		</footer>
 
 	</body>	
